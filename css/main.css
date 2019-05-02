@@ -1092,14 +1092,16 @@ header {
 header .row {
 	position: relative;
 	min-height: 66px;
+	width: 100%;
+	max-width: 100%;
+	padding-left: unset;
+	padding-right: unset;
 }
 header .top-bar {
-	display: block;
 	background: #000000;
-	min-width: 220px;
+	min-width: 100%;
 	min-height: 66px;
-	position: absolute;
-	left: 90px;
+	left: 0;
 	top: 0;
 }
 header .logo {
@@ -1267,22 +1269,22 @@ header .logo a {
  */
 @media only screen and (max-width:1024px) {
 	header .top-bar {
-		left: 60px;
+		left: 0px;
 	}
 }
 @media only screen and (max-width:768px) {
 	header .top-bar {
-		left: 50px;
+		left: 0px;
 	}
 }
 @media only screen and (max-width:600px) {
 	header .top-bar {
-		left: 35px;
+		left: 0px;
 	}
 }
 @media only screen and (max-width:400px) {
 	header .top-bar {
-		left: 25px;
+		left: 0px;
 	}
 }
 
